@@ -1,11 +1,43 @@
-<div align="center">
+# Elle Hair Salon Website
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This is a modern, responsive website for Elle Hair Salon built with React, Vite, and Tailwind CSS.
 
-  <h1>Built with AI Studio</h2>
+## Project Structure
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **src/**: Contains the source code (components, pages, styles).
+- **public/**: Static assets.
+- **index.html**: Entry point.
+- **vite.config.ts**: Vite configuration.
+- **tailwind.config.js**: Tailwind CSS configuration.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Getting Started
 
-</div>
+To run this project locally on your machine:
+
+1.  **Prerequisites**: Make sure you have [Node.js](https://nodejs.org/) installed.
+
+2.  **Install Dependencies**:
+    Open a terminal in the project folder and run:
+    ```bash
+    npm install
+    ```
+
+3.  **Start Development Server**:
+    ```bash
+    npm run dev
+    ```
+    The site will be available at `http://localhost:5173` (or similar).
+
+## Building for Production
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+The output will be in the `dist/` folder, which you can deploy to Vercel, Netlify, or any static hosting provider.
+
+## Deployment
+
+Refer to `DEPLOYMENT.md` for detailed instructions on how to deploy this site to the web.

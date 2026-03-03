@@ -1,0 +1,5 @@
+{
+  "name": "Elle Hair Salon - Modern Hair Techniques in La Habra",
+  "description": "Premium hair salon in La Habra, CA specializing in Balayage, Digital Perms, and custom color. Experience elegant, professional hair care tailored to you.",
+  "requestFramePermissions": ["geolocation"]
+}
